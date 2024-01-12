@@ -1,12 +1,16 @@
 //Javascript Language is case sensitive
 // Javascript is dynamic type conversion language while Java is static type language
 // Types in javascript => boolean, string, number, BigInt, Object, Symbol, undefined, null
+// In Javascript anything inside double quotes(""), single quotes('') and backtick(``) are data.
 
 // console.log('hey');   // debugging
 
 // console.log('First Javascript code line');
 
 // In Javascript we have three keyword which are used for defining or creating a variable. Those are -> var , let , const
+
+
+// For declarating new varaible you need to use either let, var or const
 var firstName = "Hemant";
 var lastName = "Yadav"
 var middelName = "Rao"
@@ -28,8 +32,7 @@ a = 1234; // "number" data type"
 console.log(typeof a);
 var a = 234;    // This will not give any error, re-declaration is allowed for var
 console.log(a);
-
-// For declarating new varaible you need to use either let, var or const 
+ 
 
 
 b = 30;   // b = 30;  =>  var b = 30;
@@ -62,4 +65,6 @@ console.log(typeof -Infinity);   // type of "-Infinity" is number
 
 // Boolean
 var check = true;
-console.log(typeof check);
+console.log(typeof check);  // boolean
+const checker = typeof check;  // boolean
+console.log(typeof checker);  // string  (Note:- what type typeof exactly return => typeof always return string type)
